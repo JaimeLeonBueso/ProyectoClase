@@ -7,7 +7,7 @@ public class Ejercicio2_7 : MonoBehaviour
     float segundosTranscurridos = 14400;
     float oroPorSegundo = 7;
     float oroAcumulado;
-    float temporizador=4; //14.400segundos,240minutos, 4horas
+    //float temporizador=4; //14.400segundos,240minutos, 4horas
 
 
     void Start()

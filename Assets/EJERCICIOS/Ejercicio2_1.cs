@@ -25,17 +25,4 @@ public class Ejercicio2_1 : MonoBehaviour
     float contador = 77f;
     string tallaCamiseta = "XL";
 
-
- 
-
-    void Start()
-    {
-        
-    }
-
-  
-    void Update()
-    {
-        
-    }
 }
