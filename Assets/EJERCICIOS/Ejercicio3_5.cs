@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Ejercicio3_5 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float radio;
+    float longitud;
+    float area;
     void Start()
     {
-        
+        longitud = 2 * 3.14f * radio;
+        area = 3.14f * (Mathf.Pow(radio, 2));
+        Debug.Log("Los componentes de la circunferencia de visión del personaje son: \n" +
+            "1)Radio: " + radio + ". 2)Área: " +area + ". 3)Longitud: "+longitud+".");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
+

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Ejercicio3_3 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int numeroEntero1;
+    int dobleNumeroEntero1;
+    int tripleNumeroEntero1;
     void Start()
     {
-        
+        dobleNumeroEntero1 = numeroEntero1 * 2;
+        tripleNumeroEntero1 = numeroEntero1 * 3;
+        Debug.Log("¿Te gusta ese número eh? Pues que sepas que su doble es " +dobleNumeroEntero1+ " y su triple es " +tripleNumeroEntero1+ ".");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

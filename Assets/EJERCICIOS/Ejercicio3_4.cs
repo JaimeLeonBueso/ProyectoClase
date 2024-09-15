@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Ejercicio3_4 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float xp;
+    float lvl;
     void Start()
     {
-        
+        lvl = 32 + (9 * xp / 5);
+        Debug.Log("El nivel de tu personajes es "+lvl+ ".");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
+
