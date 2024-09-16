@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Ejercicio5_5 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int nivelPersonaje;
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        int moduloNivelPersonaje = nivelPersonaje % 2;
+        if(moduloNivelPersonaje == 0 )
+        {
+            Debug.Log(nivelPersonaje + " es un numero par.");
+        }
+        else
+        {
+            Debug.Log(nivelPersonaje + " es un numero impar.");
+        }
     }
 }

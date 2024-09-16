@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Ejercicio5_4 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int numero1;
+    [SerializeField] int numero2;
     void Start()
     {
-        
+        if (numero2 !=0)
+        {
+            int resultado = numero1/numero2;
+            Debug.Log("La división de "+numero1+" entre "+numero2+ " es igual a "+resultado+".");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

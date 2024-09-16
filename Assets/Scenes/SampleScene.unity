@@ -257,8 +257,8 @@ GameObject:
   - component: {fileID: 763702546}
   - component: {fileID: 763702545}
   - component: {fileID: 763702544}
-  - component: {fileID: 763702543}
-  - component: {fileID: 763702542}
+  - component: {fileID: 763702555}
+  - component: {fileID: 763702554}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -607,30 +607,6 @@ MonoBehaviour:
   baseTriangulo: 5
   alturaTriangulo: 5
   radioCircunferencia: 5
---- !u!114 &763702542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763702518}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57fc4cf1df3306344b49bf2c02739798, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &763702543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763702518}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6997d6e483fe4fa4b864cee7204ed1fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &763702544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,6 +643,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22aa03efb4a9dea44a3eb4e429bda9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horas: 22
+  minutos: 55
+  segundos: 55
 --- !u!114 &763702547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -679,6 +658,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b8d0de8a1378347b2d3cf0687a0632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidadPlayer1: 10
+  velocidadPlayer2: 50
+  velocidadPlayer3: 25
 --- !u!114 &763702548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -691,6 +673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d6531c47614064a885e360ca1e57b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivelPokemon: 17
 --- !u!114 &763702549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,6 +686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e71b933a876032d4b8b60f092069d39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nivelPersonaje: 0
 --- !u!114 &763702550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -715,6 +699,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a53f372d8845684b93004acedf5fdd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numero1: 0
+  numero2: 4
 --- !u!114 &763702551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -727,6 +713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 119d4db8782efad41a57681862af50c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numeroEntero: 9
 --- !u!114 &763702552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -739,6 +726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbd61ba81c445cc488df8e768c664df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vidaPlayer1: 10
+  vidaPlayer2: 0
 --- !u!114 &763702553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -749,6 +738,32 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 405e2e335976cc34597ff6d4381ce485, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaPlayer1: 7
+  vidaPlayer2: 7
+--- !u!114 &763702554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763702518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6798200f3b8449f44ba4e210a232ad57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &763702555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763702518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a10cbc46b56184fac526f4a0f06163, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807

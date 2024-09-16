@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Ejercicio5_1 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int vidaPlayer1;
+    [SerializeField] int vidaPlayer2;
     void Start()
     {
-        
+        if (vidaPlayer1 == vidaPlayer2)
+            {
+            Debug.Log("There is a new challenger. La batalla va a estar reñida");    
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

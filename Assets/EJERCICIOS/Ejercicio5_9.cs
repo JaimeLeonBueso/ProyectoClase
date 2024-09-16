@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class Ejercicio5_9 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] char tipo;
+  
     void Start()
     {
-        
-    }
+        if (horas < 0 || horas >= 24)
+        {
+            Debug.Log("¡La hora no es valida!");
+        }
+        else if (minutos < 0 || minutos >= 60)
+        {
+            Debug.Log("¡La hora no es valida!");
+        }
+        else if (segundos < 0 || segundos >= 60)
+        {
+            Debug.Log("¡La hora no es valida!");
+        }
+        else
+        {
+            Debug.Log("Son las " + horas + " horas " + minutos + " minutos y " + segundos + "segundos.");
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
+

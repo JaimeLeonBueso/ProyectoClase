@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Ejercicio5_6 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int nivelPokemon;
     void Start()
     {
-        
-    }
+        if (nivelPokemon % 10 == 0)
+        {
+            Debug.Log("Tu pokemon ha aprendido una nueva habilidad.");
+        }
+        else
+        {
+            Debug.Log("Tu pokemon aun tiene camino por recorrer.");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        }
     }
 }

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Ejercicio5_3 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int numeroEntero;
+ 
     void Start()
     {
-        
+        if (numeroEntero>=0 && numeroEntero<=9)
+        {
+            Debug.Log("El número está comprendido entre 0 y 9");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

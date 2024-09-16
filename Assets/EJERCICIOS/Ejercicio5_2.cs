@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Ejercicio5_2 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int vidaPlayer1;
+    [SerializeField] int vidaPlayer2;
     void Start()
     {
-        
+        if (vidaPlayer1 <3 && vidaPlayer2 <3)
+        {
+            Debug.Log("Los dos números son menores que 3");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
