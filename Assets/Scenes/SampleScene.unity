@@ -270,6 +270,8 @@ GameObject:
   - component: {fileID: 763702563}
   - component: {fileID: 763702562}
   - component: {fileID: 763702561}
+  - component: {fileID: 763702567}
+  - component: {fileID: 763702568}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -925,6 +927,33 @@ MonoBehaviour:
   numeroParaWhileFinal: 12
   numeroParaForInicio: -2
   numeroParaForFinal: 5
+--- !u!114 &763702567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763702518}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7395debbd8fa264a861a4abfdfb0072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numero1: 3
+  numero2: 5
+--- !u!114 &763702568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763702518}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f6a77cec649ea4daf16b8c183320bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numeroAExaminar: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
