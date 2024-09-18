@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Ejercicio5_10 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float temperatura;
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (temperatura <= 10)
+        { Debug.Log("Tu personaje ha entrado en un clima frío, abrígate."); }
+        else if (temperatura > 10 && temperatura <= 20)
+        { Debug.Log("Tu personaje ha entrado en un clima nublado, ponte el chubasquero."); }
+        else if (temperatura > 20 && temperatura <= 30)
+        { Debug.Log("Tu personaje ha entrado en un clima caluroso, toca camiseta y pantalón corto."); }
+        else
+        { Debug.Log("Tu personaje ha entrado en un clima tropical, a ponerse el bañador."); }
     }
 }
+                           
+
+
+                        
