@@ -7,7 +7,7 @@ public class Ejercicio2_3 : MonoBehaviour
 {
     int vidas = 3;
     float exp = 100f;
-    char carac = 'J';
+    //char carac = 'J';
     float resultadoProducto, resultadoDivision, resultadoDuplicar, resultadoTriplicar, resultadoResto;
   
     void Start()

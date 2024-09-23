@@ -6,7 +6,7 @@ public class Ejercicio2_2 : MonoBehaviour
 {
     int vidas =3;
     float exp =100;
-    char carac = 'J';
+    //char carac = 'J';
     float resultadoSuma, resultadoResta;
     void Start()
     {
